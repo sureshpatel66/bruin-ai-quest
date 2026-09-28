@@ -77,7 +77,7 @@ def classifier_route(goal: str, profile: dict, resources: list[dict]) -> dict[st
         'cloud_learning':'Use student benefits, cloud training/labs/credits, then apply skills to a real cloud project.',
         'general_ai':'General UCLA AI discovery or learning that does not fit the more specific journeys.'}}
     }}
-    headers={'Content-Type':'application/json','User-Agent':'bruin-ai-quest/0.3.1'}
+    headers={'Content-Type':'application/json','User-Agent':'bruin-ai-quest/0.3.2'}
     key=os.environ.get('CLASSIFIER_API_KEY') or os.environ.get('CLASSIFY_API_KEY')
     use_key = os.environ.get('VERCEL') != '1' or os.environ.get('BRUIN_USE_CLASSIFIER_KEY','0') == '1'
     if key and use_key:

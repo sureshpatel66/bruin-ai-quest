@@ -59,7 +59,7 @@ wheels = [
 
 [[package]]
 name = "bruin-ai-quest"
-version = "0.3.1"
+version = "0.3.2"
 source = { editable = "." }
 dependencies = [
     { name = "fastapi" },
