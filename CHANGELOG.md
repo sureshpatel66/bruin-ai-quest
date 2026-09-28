@@ -1,5 +1,14 @@
 # Changelog
 
+## v0.3.2 — 2026-09-27
+
+### Dependency hardening
+
+- Consolidated Python dependency locking on `pyproject.toml` + `uv.lock` and removed the duplicate `requirements.txt` manifest.
+- CI now installs the exact lockfile with pinned `uv`, then runs tests, `pip-audit`, and Bandit inside the locked environment.
+- Build tooling remains pinned above the active setuptools/wheel advisory ranges.
+- Updated the public client user-agent to `bruin-ai-quest/0.3.2`.
+
 ## v0.3.1 — 2026-09-27
 
 ### Security and privacy hardening

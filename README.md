@@ -193,7 +193,7 @@ The campus geometry database in `web/assets/campus-map.json` is derived from Ope
 
 ## Deploy to Vercel
 
-The repository includes `api/index.py` and `vercel.json` for Vercel. The Python API is packaged as a Vercel Function and the root/static paths are rewritten to the FastAPI app.
+The repository includes `api/index.py`, `vercel.json`, and a committed `uv.lock` so production dependency resolution is reproducible. The Python API is packaged as a Vercel Function and the root/static paths are rewritten to the FastAPI app.
 
 ```bash
 vercel deploy --prod
