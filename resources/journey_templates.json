@@ -1,0 +1,94 @@
+{
+  "version": "0.3.0",
+  "last_verified": "2026-09-27",
+  "templates": {
+    "ai_agent_builder": {
+      "title": "Learn → Build → Run an AI agent",
+      "summary": "Move from agent concepts to a reproducible code workspace, model discovery, research compute, and model/API integration.",
+      "steps": [
+        {"resource_id": "qcbio_ai_agents", "purpose": "Learn agent architecture, RAG, tool use, and research automation in a UCLA/QCBio setting.", "action": "Review prerequisites and register for the workshop if the schedule fits."},
+        {"resource_id": "online_github_student_pack", "purpose": "Unlock verified-student developer benefits and establish the GitHub identity used for the project.", "action": "Verify student eligibility and activate the current benefits you actually need."},
+        {"resource_id": "online_github_codespaces", "purpose": "Create a reproducible cloud development environment tied to the project repository.", "action": "Open the repo in Codespaces or use an equivalent local environment.", "alternatives": ["online_jetbrains_student"]},
+        {"resource_id": "online_hugging_face", "purpose": "Discover candidate open models, datasets, model cards, licenses, and runnable examples.", "action": "Shortlist models whose licenses and data requirements fit the project."},
+        {"resource_id": "bruincloud", "purpose": "Move the prototype to UCLA research cloud/GPU infrastructure when project scale or governance requires it.", "action": "Check project eligibility, account setup, and approved data boundaries before provisioning compute.", "alternatives": ["online_modal_cloud", "online_lightning_ai"]},
+        {"resource_id": "online_openrouter", "purpose": "Compare multiple hosted model APIs behind a common interface for non-sensitive prototyping.", "action": "Benchmark only approved test data and compare model behavior, latency, and cost.", "alternatives": ["online_groq", "online_openai_api", "online_anthropic_api"]}
+      ]
+    },
+    "single_cell_research": {
+      "title": "Learn → Reproduce → Scale a single-cell analysis",
+      "summary": "Start with UCLA single-cell training, establish a reproducible code environment, scale compute, then add literature and agentic support.",
+      "steps": [
+        {"resource_id": "qcbio_scrna", "purpose": "Learn a practical UCLA single-cell RNA-seq workflow and analysis conventions.", "action": "Review the workshop schedule, prerequisites, and materials."},
+        {"resource_id": "online_github_student_pack", "purpose": "Set up the repository and student developer tooling used to make the workflow reproducible.", "action": "Create or connect the analysis repository and keep data out of Git unless it is approved for sharing."},
+        {"resource_id": "online_github_codespaces", "purpose": "Use a reproducible development container or cloud workspace for scripts and notebooks.", "action": "Create the environment definition and run a small public/synthetic dataset first.", "alternatives": ["online_jetbrains_student", "online_google_colab"]},
+        {"resource_id": "bruincloud", "purpose": "Scale CPU/GPU work on UCLA-supported cloud infrastructure when local hardware is insufficient.", "action": "Choose compute only after estimating memory, runtime, storage, and data-governance needs.", "alternatives": ["online_modal_cloud"]},
+        {"resource_id": "gemini_notebook", "purpose": "Ground literature questions in the specific papers, protocols, and analysis notes you supply.", "action": "Create a source notebook for methods, caveats, and interpretation support."},
+        {"resource_id": "qcbio_ai_agents", "purpose": "Add bounded AI-agent automation around the deterministic analysis workflow.", "action": "Automate routing/documentation tasks without delegating statistical validity to the agent."}
+      ]
+    },
+    "coding_project": {
+      "title": "Set up → Code → Reproduce → Publish",
+      "summary": "Use student developer benefits, a development environment, AI coding assistance, and a reproducible cloud workspace to ship a public project.",
+      "steps": [
+        {"resource_id": "online_github_student_pack", "purpose": "Verify student developer access and establish the GitHub project home.", "action": "Activate only the benefits that support the project."},
+        {"resource_id": "online_jetbrains_student", "purpose": "Choose a professional IDE for coursework, academic research, or software development.", "action": "Install the IDE that matches the project language and workflow.", "alternatives": ["online_github_codespaces"]},
+        {"resource_id": "github_copilot", "purpose": "Add UCLA/GitHub AI pair-programming support when campus access is available.", "action": "Verify current rollout status before depending on it."},
+        {"resource_id": "online_github_codespaces", "purpose": "Make the environment reproducible in the browser/VS Code cloud workspace.", "action": "Add a devcontainer or environment bootstrap so others can reproduce the app."},
+        {"resource_id": "google_gemini", "purpose": "Use UCLA-provided general AI for code explanation, debugging ideas, and documentation support.", "action": "Keep source-of-truth logic in tests and code review rather than AI output."}
+      ]
+    },
+    "gpu_compute": {
+      "title": "Prototype → Estimate → Scale compute",
+      "summary": "Start with a small notebook experiment, estimate requirements, then choose UCLA-supported or external GPU infrastructure.",
+      "steps": [
+        {"resource_id": "online_google_colab", "purpose": "Prototype the workload in a hosted notebook with variable free compute.", "action": "Measure memory, runtime, and accelerator needs on a small public/synthetic workload.", "alternatives": ["online_kaggle_notebooks"]},
+        {"resource_id": "bruincloud", "purpose": "Use UCLA research cloud/GPU infrastructure when project governance and scale make it the better fit.", "action": "Confirm project/account eligibility and estimate cloud cost before scaling."},
+        {"resource_id": "online_modal_cloud", "purpose": "Use code-defined external GPU execution for approved non-sensitive workloads or portable prototypes.", "action": "Compare runtime and cost against BruinCloud before committing to a provider.", "alternatives": ["online_lightning_ai"]},
+        {"resource_id": "online_hugging_face", "purpose": "Pair compute with model/dataset discovery and explicit model-card/license review.", "action": "Select artifacts that fit the compute budget and license constraints."}
+      ]
+    },
+    "literature_review": {
+      "title": "Collect → Ground → Synthesize → Automate",
+      "summary": "Ground questions in supplied sources first, then use general AI and optional APIs for structured, reproducible literature workflows.",
+      "steps": [
+        {"resource_id": "gemini_notebook", "purpose": "Create a source-grounded notebook from papers, URLs, protocols, and notes.", "action": "Load only the sources you want the synthesis to rely on and inspect citations."},
+        {"resource_id": "google_gemini", "purpose": "Use UCLA-provided general AI for broader reasoning, drafting, and multimodal support.", "action": "Separate source-grounded claims from broader web/model suggestions."},
+        {"resource_id": "qcbio_llm", "purpose": "Learn how LLM methods connect to genomics/research workflows in a QCBio setting.", "action": "Use the workshop to improve evaluation and reproducibility practices."},
+        {"resource_id": "online_openai_api", "purpose": "Programmatically scale structured literature tasks when an API workflow is justified.", "action": "Use non-sensitive inputs, explicit schemas, and human review for uncertain classifications.", "alternatives": ["online_anthropic_api", "online_gemini_api"]}
+      ]
+    },
+    "model_api_exploration": {
+      "title": "Compare → Benchmark → Integrate model APIs",
+      "summary": "Use a gateway for breadth, then inspect direct providers and fast-inference options before selecting an integration path.",
+      "steps": [
+        {"resource_id": "online_openrouter", "purpose": "Survey multiple hosted models and provider routes behind one API surface.", "action": "Define a small benchmark set and record provider/model metadata with each result."},
+        {"resource_id": "online_groq", "purpose": "Test low-latency hosted inference on supported models.", "action": "Measure latency, output quality, and rate limits on the same benchmark."},
+        {"resource_id": "online_openai_api", "purpose": "Benchmark direct OpenAI API access for the same task family.", "action": "Record model/version, cost, and structured-output behavior."},
+        {"resource_id": "online_anthropic_api", "purpose": "Benchmark direct Claude API access for reasoning, coding, and agentic tasks.", "action": "Use the identical evaluation set and record failure modes."},
+        {"resource_id": "online_gemini_api", "purpose": "Benchmark Gemini developer APIs, including multimodal or long-context cases when relevant.", "action": "Compare free/paid tier constraints and data terms before using research content."},
+        {"resource_id": "bruin_ai_gateway", "purpose": "Re-evaluate the UCLA gateway as a campus-managed integration option when it becomes available.", "action": "Check current UCLA availability before planning around this step.", "optional": true}
+      ]
+    },
+    "cloud_learning": {
+      "title": "Student benefits → Cloud labs → Research cloud",
+      "summary": "Use verified-student programs for structured learning, then apply those skills to a real research cloud project.",
+      "steps": [
+        {"resource_id": "online_github_student_pack", "purpose": "Establish verified student developer access and inspect current partner benefits.", "action": "Verify eligibility and activate only the offers you need."},
+        {"resource_id": "online_google_cloud_skills", "purpose": "Use structured Google Cloud labs and learning credits for cloud/AI skills.", "action": "Treat learning credits as training credits, not a general production-compute grant."},
+        {"resource_id": "online_aws_educate", "purpose": "Learn AWS fundamentals and inspect the current learner labs/offers.", "action": "Check the current portal rather than assuming a fixed promotional credit."},
+        {"resource_id": "online_azure_for_students", "purpose": "Explore Azure with the current verified-student offer and its explicit credit window.", "action": "Confirm eligibility, region, service limits, and expiry before provisioning resources."},
+        {"resource_id": "bruincloud", "purpose": "Apply cloud skills to UCLA research infrastructure when the project has a real compute need.", "action": "Move from learning labs to governed research infrastructure only after scoping cost and data requirements."}
+      ]
+    },
+    "general_ai": {
+      "title": "Discover → Learn → Build with UCLA AI",
+      "summary": "Start with UCLA-provided general AI, then move into campus training and a student developer workflow.",
+      "steps": [
+        {"resource_id": "google_gemini", "purpose": "Start with UCLA-provided general-purpose AI for reasoning, coding, and multimodal tasks.", "action": "Try the task with non-sensitive content and learn the tool's strengths and limits."},
+        {"resource_id": "microsoft_copilot", "purpose": "Compare another UCLA-provided general AI assistant and its web-grounded workflow.", "action": "Use the same task so the comparison is concrete."},
+        {"resource_id": "ucla_ai_exchange", "purpose": "Explore current UCLA AI training, demos, and student-focused sessions.", "action": "Select the sessions most relevant to your next technical step."},
+        {"resource_id": "online_github_student_pack", "purpose": "Turn learning into a real student software/research project with developer tooling.", "action": "Create a small public or synthetic project and document what you learned."}
+      ]
+    }
+  }
+}

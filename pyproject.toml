@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools==80.9.0", "wheel==0.45.1"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bruin-ai-quest"
+version = "0.3.1"
+description = "Interactive Jev-powered journey planner for UCLA and independent AI resources"
+requires-python = ">=3.11"
+dependencies = [
+  "fastapi==0.141.1",
+  "uvicorn[standard]==0.54.0",
+  "pydantic==2.13.5",
+  "httpx==0.28.1"
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest==9.1.1",
+  "pip-audit==2.10.1",
+  "bandit==1.9.4"
+]
+map = ["defusedxml==0.7.1"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
