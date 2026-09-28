@@ -1,0 +1,480 @@
+{
+  "last_verified": "2026-09-27",
+  "disclaimer": "Community-built navigator. Not an official UCLA service or endorsement. Availability, pricing, eligibility, dates, and policies can change; verify on the linked UCLA page.",
+  "resources": [
+    {
+      "id": "google_gemini",
+      "name": "Google Gemini for Education",
+      "zone": "google_ai",
+      "status": "available",
+      "eligibility": "Active UCLA students, faculty, and staff",
+      "cost": "Included / no additional cost",
+      "tasks": [
+        "general_ai",
+        "coding",
+        "reasoning",
+        "multimodal",
+        "web_research"
+      ],
+      "best_for": "General-purpose reasoning, drafting, code help, multimodal analysis, and grounded web synthesis.",
+      "official_url": "https://www.dts.ucla.edu/products-services/ai-tools/google-ai",
+      "source_note": "UCLA DTS Google AI; active now; last updated September 2026",
+      "last_verified": "2026-09-27",
+      "location": {
+        "kind": "online",
+        "venue_ids": [],
+        "label": "Online service · no campus destination",
+        "note": "Access depends on eligibility and rollout status. This service is not a physical campus facility.",
+        "source_url": "https://www.dts.ucla.edu/products-services/ai-tools/google-ai",
+        "last_verified": "2026-09-27"
+      }
+    },
+    {
+      "id": "gemini_notebook",
+      "name": "Gemini Notebook (NotebookLM)",
+      "zone": "google_ai",
+      "status": "available",
+      "eligibility": "Active UCLA students, faculty, and staff",
+      "cost": "Included / no additional cost",
+      "tasks": [
+        "literature",
+        "papers",
+        "document_qna",
+        "study",
+        "source_synthesis"
+      ],
+      "best_for": "Source-grounded synthesis of papers, PDFs, notes, URLs, and other supplied sources with inline citations.",
+      "official_url": "https://www.dts.ucla.edu/products-services/ai-tools/google-ai",
+      "source_note": "UCLA DTS Google AI; active now; up to 50 sources per notebook listed",
+      "last_verified": "2026-09-27",
+      "location": {
+        "kind": "online",
+        "venue_ids": [],
+        "label": "Online service · no campus destination",
+        "note": "Access depends on eligibility and rollout status. This service is not a physical campus facility.",
+        "source_url": "https://www.dts.ucla.edu/products-services/ai-tools/google-ai",
+        "last_verified": "2026-09-27"
+      }
+    },
+    {
+      "id": "google_education_plus",
+      "name": "Google Education Plus",
+      "zone": "google_ai",
+      "status": "available",
+      "eligibility": "UCLA students",
+      "cost": "Included",
+      "tasks": [
+        "education",
+        "workspace",
+        "learning"
+      ],
+      "best_for": "Expanded Google education capabilities available to UCLA students under the campus Google offering.",
+      "official_url": "https://www.dts.ucla.edu/products-services/ai-tools/campus-ai-tools-comparison",
+      "source_note": "UCLA Campus AI Tools Comparison",
+      "last_verified": "2026-09-27",
+      "location": {
+        "kind": "online",
+        "venue_ids": [],
+        "label": "Online service · no campus destination",
+        "note": "Access depends on eligibility and rollout status. This service is not a physical campus facility.",
+        "source_url": "https://www.dts.ucla.edu/products-services/ai-tools/campus-ai-tools-comparison",
+        "last_verified": "2026-09-27"
+      }
+    },
+    {
+      "id": "gemini_workspace",
+      "name": "Gemini for Google Workspace",
+      "zone": "google_ai",
+      "status": "fall_2026_rollout",
+      "eligibility": "Active UCLA students",
+      "cost": "Included as enabled during rollout",
+      "tasks": [
+        "gmail",
+        "docs",
+        "sheets",
+        "slides",
+        "meet",
+        "workspace"
+      ],
+      "best_for": "Embedded AI assistance in Google Workspace apps such as Gmail, Docs, Sheets, Slides, and Meet.",
+      "official_url": "https://www.dts.ucla.edu/products-services/ai-tools/google-ai",
+      "source_note": "UCLA DTS Google AI; Fall 2026 rollout",
+      "last_verified": "2026-09-27",
+      "location": {
+        "kind": "online",
+        "venue_ids": [],
+        "label": "Online service · no campus destination",
+        "note": "Access depends on eligibility and rollout status. This service is not a physical campus facility.",
+        "source_url": "https://www.dts.ucla.edu/products-services/ai-tools/google-ai",
+        "last_verified": "2026-09-27"
+      }
+    },
+    {
+      "id": "microsoft_copilot",
+      "name": "Microsoft Copilot Chat",
+      "zone": "model_hub",
+      "status": "available",
+      "eligibility": "Active UCLA students, faculty, and staff",
+      "cost": "Included / no additional licensing cost",
+      "tasks": [
+        "general_ai",
+        "web_research",
+        "writing",
+        "analysis",
+        "coding"
+      ],
+      "best_for": "Enterprise-protected, web-grounded general AI chat with UCLA credentials.",
+      "official_url": "https://dts.ucla.edu/products-services/ai-tools/microsoft-ai",
+      "source_note": "UCLA DTS Microsoft AI; active now",
+      "last_verified": "2026-09-27",
+      "location": {
+        "kind": "online",
+        "venue_ids": [],
+        "label": "Online service · no campus destination",
+        "note": "Access depends on eligibility and rollout status. This service is not a physical campus facility.",
+        "source_url": "https://dts.ucla.edu/products-services/ai-tools/microsoft-ai",
+        "last_verified": "2026-09-27"
+      }
+    },
+    {
+      "id": "github_copilot",
+      "name": "GitHub Copilot",
+      "zone": "coding",
+      "status": "coming_fall_2026",
+      "eligibility": "UCLA BruinStack rollout; student-focused AI Exchange session available",
+      "cost": "Verify current campus provisioning",
+      "tasks": [
+        "coding",
+        "github",
+        "debugging",
+        "software_development"
+      ],
+      "best_for": "AI pair programming for writing, debugging, understanding, and maintaining software.",
+      "official_url": "https://dts.ucla.edu/products-services/ai-tools",
+      "source_note": "UCLA DTS AI Tools; Coming Fall 2026",
+      "last_verified": "2026-09-27",
+      "location": {
+        "kind": "online",
+        "venue_ids": [],
+        "label": "Online service · no campus destination",
+        "note": "Access depends on eligibility and rollout status. This service is not a physical campus facility.",
+        "source_url": "https://dts.ucla.edu/products-services/ai-tools",
+        "last_verified": "2026-09-27"
+      }
+    },
+    {
+      "id": "aws_kiro",
+      "name": "AWS Kiro",
+      "zone": "coding",
+      "status": "coming_fall_2026",
+      "eligibility": "UCLA BruinStack rollout; verify current access",
+      "cost": "Verify current campus provisioning",
+      "tasks": [
+        "coding",
+        "agents",
+        "software_development",
+        "cloud"
+      ],
+      "best_for": "Spec-driven agentic software engineering integrated with BruinCloud AWS.",
+      "official_url": "https://dts.ucla.edu/products-services/ai-tools",
+      "source_note": "UCLA DTS AI Tools; Coming Fall 2026",
+      "last_verified": "2026-09-27",
+      "location": {
+        "kind": "online",
+        "venue_ids": [],
+        "label": "Online service · no campus destination",
+        "note": "Access depends on eligibility and rollout status. This service is not a physical campus facility.",
+        "source_url": "https://dts.ucla.edu/products-services/ai-tools",
+        "last_verified": "2026-09-27"
+      }
+    },
+    {
+      "id": "bruincloud",
+      "name": "BruinCloud",
+      "zone": "compute",
+      "status": "available_platform",
+      "eligibility": "UCLA research labs and approved cloud users; setup depends on project/account",
+      "cost": "Project-dependent cloud consumption",
+      "tasks": [
+        "gpu",
+        "tpu",
+        "cloud",
+        "research_compute",
+        "bedrock",
+        "vertex_ai"
+      ],
+      "best_for": "AWS/GCP infrastructure, managed model gardens, and scalable GPU/TPU research compute.",
+      "official_url": "https://dts.ucla.edu/products-services/ai-tools",
+      "source_note": "UCLA DTS AI Platforms and Infrastructure",
+      "last_verified": "2026-09-27",
+      "location": {
+        "kind": "online",
+        "venue_ids": [],
+        "label": "Online service · no campus destination",
+        "note": "Access depends on eligibility and rollout status. This service is not a physical campus facility.",
+        "source_url": "https://dts.ucla.edu/products-services/ai-tools",
+        "last_verified": "2026-09-27"
+      }
+    },
+    {
+      "id": "bruin_ai_gateway",
+      "name": "Bruin AI Gateway",
+      "zone": "model_hub",
+      "status": "coming_soon",
+      "eligibility": "UCLA eligibility details not yet published",
+      "cost": "TBD",
+      "tasks": [
+        "model_comparison",
+        "api",
+        "open_models",
+        "commercial_models",
+        "research_pipeline"
+      ],
+      "best_for": "One endpoint for switching among commercial and open-source models, comparing outputs, and managing spend.",
+      "official_url": "https://dts.ucla.edu/products-services/ai-tools",
+      "source_note": "UCLA DTS AI Tools; Coming Soon",
+      "last_verified": "2026-09-27",
+      "location": {
+        "kind": "online",
+        "venue_ids": [],
+        "label": "Online service · no campus destination",
+        "note": "Access depends on eligibility and rollout status. This service is not a physical campus facility.",
+        "source_url": "https://dts.ucla.edu/products-services/ai-tools",
+        "last_verified": "2026-09-27"
+      }
+    },
+    {
+      "id": "chatgpt_edu",
+      "name": "ChatGPT Edu",
+      "zone": "model_hub",
+      "status": "faculty_staff_only",
+      "eligibility": "Active UCLA faculty and staff; not available for direct student purchase",
+      "cost": "$103.60/user/year via departmental FAU",
+      "tasks": [
+        "reasoning",
+        "coding",
+        "analysis",
+        "custom_gpts",
+        "multi_file"
+      ],
+      "best_for": "Enterprise OpenAI workspace for frontier reasoning, code execution, and multi-file synthesis where eligible.",
+      "official_url": "https://www.dts.ucla.edu/products-services/ai-tools/open-ai",
+      "source_note": "UCLA DTS OpenAI; students currently not eligible for direct purchase",
+      "last_verified": "2026-09-27",
+      "location": {
+        "kind": "online",
+        "venue_ids": [],
+        "label": "Online service · no campus destination",
+        "note": "Access depends on eligibility and rollout status. This service is not a physical campus facility.",
+        "source_url": "https://www.dts.ucla.edu/products-services/ai-tools/open-ai",
+        "last_verified": "2026-09-27"
+      }
+    },
+    {
+      "id": "anthropic_ai",
+      "name": "Anthropic AI / Claude",
+      "zone": "model_hub",
+      "status": "coming_soon",
+      "eligibility": "TBD",
+      "cost": "TBD",
+      "tasks": [
+        "general_ai",
+        "reasoning",
+        "coding",
+        "writing"
+      ],
+      "best_for": "General-purpose AI assistance when UCLA access becomes available.",
+      "official_url": "https://www.dts.ucla.edu/products-services/ai-tools",
+      "source_note": "UCLA DTS AI Tools; Coming Soon",
+      "last_verified": "2026-09-27",
+      "location": {
+        "kind": "online",
+        "venue_ids": [],
+        "label": "Online service · no campus destination",
+        "note": "Access depends on eligibility and rollout status. This service is not a physical campus facility.",
+        "source_url": "https://www.dts.ucla.edu/products-services/ai-tools",
+        "last_verified": "2026-09-27"
+      }
+    },
+    {
+      "id": "qcbio_ai_agents",
+      "name": "QCBio AI Agents Workshop",
+      "zone": "qcbio",
+      "status": "fall_2026_workshop",
+      "eligibility": "UCLA affiliates; QCBio schedule lists workshops as free for UCLA faculty, staff, affiliates, and students",
+      "cost": "Free for UCLA affiliates per QCBio workshop schedule",
+      "tasks": [
+        "bioinformatics",
+        "ai_agents",
+        "rag",
+        "tool_use",
+        "research_automation"
+      ],
+      "best_for": "Hands-on AI agents, RAG, tool use, and task automation for computational bioscience.",
+      "official_url": "https://qcb.ucla.edu/collaboratory/workshops/w19-ai-agents/",
+      "source_note": "QCBio W19 AI Agents; Fall 2026 schedule lists Nov. 9, 10 & 12",
+      "last_verified": "2026-09-27",
+      "location": {
+        "kind": "physical",
+        "venue_ids": [
+          "boyer"
+        ],
+        "label": "Boyer Hall · Room 529",
+        "schedule": "Nov 9, 10 & 12, 2026 · 9 a.m.–noon",
+        "timezone": "America/Los_Angeles",
+        "source_url": "https://qcb.ucla.edu/collaboratory/workshops/w19-ai-agents/",
+        "last_verified": "2026-09-27"
+      }
+    },
+    {
+      "id": "qcbio_scrna",
+      "name": "QCBio Single-Cell RNA-Seq with R",
+      "zone": "qcbio",
+      "status": "fall_2026_workshop",
+      "eligibility": "UCLA affiliates; QCBio schedule lists workshops as free for UCLA faculty, staff, affiliates, and students",
+      "cost": "Free for UCLA affiliates per QCBio workshop schedule",
+      "tasks": [
+        "single_cell",
+        "scrna",
+        "bioinformatics",
+        "r",
+        "research_training"
+      ],
+      "best_for": "Practical single-cell RNA-seq analysis training for UCLA researchers and students.",
+      "official_url": "https://qcb.ucla.edu/collaboratory/schedule-of-workshops/",
+      "source_note": "QCBio Fall 2026 W20; Oct. 27, 28 & 29",
+      "last_verified": "2026-09-27",
+      "location": {
+        "kind": "physical",
+        "venue_ids": [
+          "boyer"
+        ],
+        "label": "Boyer Hall · Room 130",
+        "schedule": "Oct 27–29, 2026 · 1:30–4:30 p.m.",
+        "timezone": "America/Los_Angeles",
+        "source_url": "https://qcb.ucla.edu/collaboratory/workshops/w20-single-cell-rna-seq/",
+        "last_verified": "2026-09-27"
+      }
+    },
+    {
+      "id": "qcbio_llm",
+      "name": "QCBio Large Language Model Workshop",
+      "zone": "qcbio",
+      "status": "fall_2026_workshop",
+      "eligibility": "UCLA affiliates; QCBio schedule lists workshops as free for UCLA faculty, staff, affiliates, and students",
+      "cost": "Free for UCLA affiliates per QCBio workshop schedule",
+      "tasks": [
+        "llm",
+        "genomics",
+        "python",
+        "research_training"
+      ],
+      "best_for": "Large-language-model concepts and Python use cases with a genomics/research context.",
+      "official_url": "https://qcb.ucla.edu/collaboratory/schedule-of-workshops/",
+      "source_note": "QCBio Fall 2026 W37; Nov. 9, 10 & 12",
+      "last_verified": "2026-09-27",
+      "location": {
+        "kind": "physical",
+        "venue_ids": [
+          "boyer"
+        ],
+        "label": "Boyer Hall · Room 529",
+        "schedule": "Nov 9, 10 & 12, 2026 · 1:30–4:30 p.m.",
+        "timezone": "America/Los_Angeles",
+        "source_url": "https://qcb.ucla.edu/collaboratory/workshops/w37-large-language-models/",
+        "last_verified": "2026-09-27"
+      }
+    },
+    {
+      "id": "ucla_ai_exchange",
+      "name": "UCLA AI Exchange",
+      "zone": "training",
+      "status": "oct_12_16_2026",
+      "eligibility": "UCLA community; individual event eligibility varies",
+      "cost": "See individual event registration",
+      "tasks": [
+        "training",
+        "events",
+        "github",
+        "aws",
+        "gemini",
+        "networking"
+      ],
+      "best_for": "Campuswide hands-on AI learning, demonstrations, and student-focused skill building.",
+      "official_url": "https://dts.ucla.edu/initiatives/ai/ucla-ai-exchange",
+      "source_note": "UCLA DTS AI Exchange; Oct. 12–16, 2026",
+      "last_verified": "2026-09-27",
+      "location": {
+        "kind": "multiple",
+        "venue_ids": [
+          "james_west",
+          "engineering_v"
+        ],
+        "label": "Multiple campus venues",
+        "note": "Pins show the two student events in this catalog, not every AI Exchange venue. Check the full program.",
+        "source_url": "https://dts.ucla.edu/initiatives/ai/ucla-ai-exchange",
+        "last_verified": "2026-09-27"
+      }
+    },
+    {
+      "id": "github_copilot_101_event",
+      "name": "GitHub Copilot 101 for Students",
+      "zone": "training",
+      "status": "oct_13_2026",
+      "eligibility": "UCLA students / AI Exchange attendees",
+      "cost": "See event registration",
+      "tasks": [
+        "github",
+        "copilot",
+        "coding",
+        "student_developer_pack",
+        "training"
+      ],
+      "best_for": "Student-focused introduction to GitHub Copilot with GitHub Student Developer Pack activation.",
+      "official_url": "https://dts.ucla.edu/tags/ai-exchange-students",
+      "source_note": "UCLA AI Exchange Students; Oct. 13, 2026, 3–4 p.m.",
+      "last_verified": "2026-09-27",
+      "location": {
+        "kind": "physical",
+        "venue_ids": [
+          "james_west"
+        ],
+        "label": "James West Alumni Center · Founders Room",
+        "schedule": "Oct 13, 2026 · 3–4 p.m.",
+        "timezone": "America/Los_Angeles",
+        "source_url": "https://dts.ucla.edu/tags/ai-exchange-students",
+        "last_verified": "2026-09-27"
+      }
+    },
+    {
+      "id": "aws_kiro_event",
+      "name": "AWS Kiro Hands-On Workshop",
+      "zone": "training",
+      "status": "oct_14_2026",
+      "eligibility": "UCLA students / AI Exchange attendees",
+      "cost": "See event registration",
+      "tasks": [
+        "kiro",
+        "aws",
+        "coding",
+        "agents",
+        "training"
+      ],
+      "best_for": "Hands-on student workshop for AWS Kiro and agentic software engineering.",
+      "official_url": "https://dts.ucla.edu/events/aws-kiro-presentation-hands-workshop",
+      "source_note": "UCLA AI Exchange; Oct. 14, 2026, 3:30–4:30 p.m.; Engineering V, room 2101",
+      "last_verified": "2026-09-27",
+      "location": {
+        "kind": "physical",
+        "venue_ids": [
+          "engineering_v"
+        ],
+        "label": "Engineering V · Room 2101",
+        "schedule": "Oct 14, 2026 · 3:30–4:30 p.m.",
+        "timezone": "America/Los_Angeles",
+        "source_url": "https://dts.ucla.edu/events/aws-kiro-presentation-hands-workshop",
+        "last_verified": "2026-09-27"
+      }
+    }
+  ]
+}

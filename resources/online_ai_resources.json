@@ -1,0 +1,722 @@
+{
+  "last_verified": "2026-09-27",
+  "disclaimer": "Independent online resources. They are not UCLA services or endorsements. Offers, credits, prices, model availability, terms, and data practices can change; confirm them on the linked provider page before use.",
+  "resources": [
+    {
+      "id": "online_github_student_pack",
+      "name": "GitHub Student Developer Pack",
+      "world": "online",
+      "zone": "student_workbench",
+      "status": "student_verification_required",
+      "eligibility": "Verified students age 13+; faculty, staff, and researchers are not eligible for the Student Pack",
+      "cost": "Offer terms vary by partner; verify before activating",
+      "tasks": [
+        "coding",
+        "git",
+        "student_benefits",
+        "copilot",
+        "developer_tools"
+      ],
+      "best_for": "Starting a student software project with GitHub tools and checking current Student Pack offers, including GitHub Copilot Student eligibility.",
+      "official_url": "https://education.github.com/pack",
+      "source_note": "GitHub Education Student Developer Pack; verified student eligibility and current offer listing",
+      "last_verified": "2026-09-27",
+      "properties": {
+        "kind": "student_pack",
+        "access": "verified student account",
+        "billing": "varies by offer",
+        "data_boundary": "External provider account; review GitHub and partner terms",
+        "next_steps": [
+          "online_jetbrains_student",
+          "online_github_codespaces",
+          "online_google_cloud_skills",
+          "online_aws_educate",
+          "online_openrouter"
+        ]
+      },
+      "location": {
+        "kind": "online_world",
+        "label": "Student Workbench",
+        "source_url": "https://education.github.com/pack",
+        "last_verified": "2026-09-27"
+      },
+      "district": "student_arcade"
+    },
+    {
+      "id": "online_google_cloud_skills",
+      "name": "Google Cloud Skills for Students",
+      "world": "online",
+      "zone": "learning_credits",
+      "status": "request_credits",
+      "eligibility": "Students may request access through Google Cloud's student program",
+      "cost": "200 Google Skills learning credits listed; credits expire one year after issue",
+      "tasks": [
+        "gcp",
+        "cloud",
+        "labs",
+        "learning",
+        "skill_badges"
+      ],
+      "best_for": "Structured cloud and AI learning through hands-on labs, skills badges, and the student credit request path.",
+      "official_url": "https://cloud.google.com/edu/students",
+      "source_note": "Google Cloud for Students; 200 Google Skills credits for labs and courses, not a blanket GCP production-compute grant",
+      "last_verified": "2026-09-27",
+      "properties": {
+        "kind": "learning_credits",
+        "access": "student request",
+        "billing": "learning credits; expiry applies",
+        "data_boundary": "External Google Cloud account; review provider terms",
+        "next_steps": [
+          "online_google_cloud_education",
+          "online_google_colab",
+          "online_kaggle_notebooks",
+          "online_lightning_ai"
+        ]
+      },
+      "location": {
+        "kind": "online_world",
+        "label": "Learning Credits Lab",
+        "source_url": "https://cloud.google.com/edu/students",
+        "last_verified": "2026-09-27"
+      },
+      "district": "learning_lane"
+    },
+    {
+      "id": "online_google_cloud_education",
+      "name": "Google Cloud Education Credits",
+      "world": "online",
+      "zone": "cloud_credit_gate",
+      "status": "course_or_instructor_provisioned",
+      "eligibility": "Students receive a coupon when an eligible instructor/course distributes one",
+      "cost": "Course-provided spending allowance varies; confirm the issued coupon and billing account",
+      "tasks": [
+        "gcp",
+        "cloud",
+        "coursework",
+        "labs",
+        "student_credits"
+      ],
+      "best_for": "Course work that needs instructor-provisioned Google Cloud education credits rather than general learning-lab credits.",
+      "official_url": "https://cloud.google.com/billing/docs/how-to/edu-grants",
+      "source_note": "Google Cloud education-credit documentation; credits are distributed by verified faculty/course workflows",
+      "last_verified": "2026-09-27",
+      "properties": {
+        "kind": "course_credits",
+        "access": "course coupon",
+        "billing": "credit balance and expiry are specific to the issued course account",
+        "data_boundary": "External Google Cloud project; do not upload restricted data without approval",
+        "next_steps": [
+          "online_google_cloud_skills",
+          "online_google_colab",
+          "online_lightning_ai",
+          "online_modal_cloud"
+        ]
+      },
+      "location": {
+        "kind": "online_world",
+        "label": "GCP Course Credit Gate",
+        "source_url": "https://cloud.google.com/billing/docs/how-to/edu-grants",
+        "last_verified": "2026-09-27"
+      },
+      "district": "learning_lane"
+    },
+    {
+      "id": "online_aws_educate",
+      "name": "AWS Educate",
+      "world": "online",
+      "zone": "aws_learning",
+      "status": "availability_and_offers_vary",
+      "eligibility": "Check current AWS Educate enrollment and regional/program eligibility",
+      "cost": "Do not assume a credit amount; current labs and offers must be confirmed in the portal",
+      "tasks": [
+        "aws",
+        "cloud",
+        "learning",
+        "labs",
+        "foundational_skills"
+      ],
+      "best_for": "Beginning AWS cloud education and checking the currently available learner labs, training, and program offers.",
+      "official_url": "https://aws.amazon.com/education/awseducate/",
+      "source_note": "AWS Educate program page; credit offers are time-sensitive and intentionally not stated here",
+      "last_verified": "2026-09-27",
+      "properties": {
+        "kind": "cloud_learning",
+        "access": "AWS Educate enrollment",
+        "billing": "offer-dependent",
+        "data_boundary": "External AWS account; review current service and data terms",
+        "next_steps": [
+          "online_lightning_ai",
+          "online_modal_cloud",
+          "online_github_codespaces"
+        ]
+      },
+      "location": {
+        "kind": "online_world",
+        "label": "AWS Learning Dock",
+        "source_url": "https://aws.amazon.com/education/awseducate/",
+        "last_verified": "2026-09-27"
+      },
+      "district": "learning_lane"
+    },
+    {
+      "id": "online_modal_cloud",
+      "name": "Modal Cloud",
+      "world": "online",
+      "zone": "gpu_cloud",
+      "status": "account_and_billing_required_for_gpu",
+      "eligibility": "Anyone with an account subject to provider terms; GPU use requires a valid payment method",
+      "cost": "Usage-based; provider documents per-second billing",
+      "tasks": [
+        "gpu",
+        "cloud",
+        "inference",
+        "batch",
+        "fine_tuning",
+        "notebooks"
+      ],
+      "best_for": "Code-defined GPU inference, batch execution, fine-tuning, sandboxes, and GPU-backed notebooks.",
+      "official_url": "https://modal.com/docs/guide",
+      "source_note": "Modal guide; provider documents code-defined cloud GPU execution and payment-method requirement for GPU use",
+      "last_verified": "2026-09-27",
+      "properties": {
+        "kind": "gpu_cloud",
+        "access": "account plus payment method for GPU",
+        "billing": "usage-based per-second billing",
+        "data_boundary": "External cloud execution; use only data approved for the provider",
+        "next_steps": [
+          "online_lightning_ai",
+          "online_hugging_face",
+          "online_groq",
+          "online_openrouter"
+        ]
+      },
+      "location": {
+        "kind": "online_world",
+        "label": "GPU Cloud Port",
+        "source_url": "https://modal.com/docs/guide",
+        "last_verified": "2026-09-27"
+      },
+      "district": "compute_dock"
+    },
+    {
+      "id": "online_openrouter",
+      "name": "OpenRouter",
+      "world": "online",
+      "zone": "model_gateway",
+      "status": "account_and_api_key_required",
+      "eligibility": "Provider account and API key required",
+      "cost": "Model/provider pricing varies; inspect the current model catalog and billing before use",
+      "tasks": [
+        "llm",
+        "model_comparison",
+        "api",
+        "model_gateway",
+        "prototyping"
+      ],
+      "best_for": "Comparing and integrating multiple hosted models through a unified API layer when you need model choice and provider metadata.",
+      "official_url": "https://openrouter.ai/docs",
+      "source_note": "OpenRouter documentation; catalog, routing, and pricing are provider-dependent and time-sensitive",
+      "last_verified": "2026-09-27",
+      "properties": {
+        "kind": "model_gateway",
+        "access": "account and API key",
+        "billing": "model/provider-dependent",
+        "data_boundary": "External routing/provider path; inspect provider and retention settings before sending data",
+        "next_steps": [
+          "online_groq",
+          "online_openai_api",
+          "online_anthropic_api",
+          "online_hugging_face",
+          "online_modal_cloud"
+        ]
+      },
+      "location": {
+        "kind": "online_world",
+        "label": "Model Gateway",
+        "source_url": "https://openrouter.ai/docs",
+        "last_verified": "2026-09-27"
+      },
+      "district": "model_market"
+    },
+    {
+      "id": "online_groq",
+      "name": "GroqCloud API",
+      "world": "online",
+      "zone": "fast_inference",
+      "status": "account_and_api_key_required",
+      "eligibility": "Provider account and API key required",
+      "cost": "Check the current provider pricing and rate limits",
+      "tasks": [
+        "llm",
+        "api",
+        "fast_inference",
+        "openai_compatible",
+        "prototyping"
+      ],
+      "best_for": "Fast hosted LLM inference through Groq's API, including chat-completion style integrations and model discovery.",
+      "official_url": "https://console.groq.com/docs/quickstart",
+      "source_note": "Groq quickstart and API reference; keys, available models, rate limits, and pricing can change",
+      "last_verified": "2026-09-27",
+      "properties": {
+        "kind": "inference_api",
+        "access": "account and API key",
+        "billing": "provider pricing and limits apply",
+        "data_boundary": "External inference service; check current data terms before sending research data",
+        "next_steps": [
+          "online_openrouter",
+          "online_hugging_face",
+          "online_cloudflare_workers_ai",
+          "online_openai_api"
+        ]
+      },
+      "location": {
+        "kind": "online_world",
+        "label": "Fast Inference Relay",
+        "source_url": "https://console.groq.com/docs/quickstart",
+        "last_verified": "2026-09-27"
+      },
+      "district": "model_market"
+    },
+    {
+      "id": "online_hugging_face",
+      "name": "Hugging Face Hub",
+      "world": "online",
+      "zone": "open_model_library",
+      "status": "public_and_gated_content_varies",
+      "eligibility": "Account may be required; access to individual models and datasets can be gated by their authors",
+      "cost": "Hub content and hosted-compute options have separate terms; inspect each resource",
+      "tasks": [
+        "open_models",
+        "datasets",
+        "spaces",
+        "model_evaluation",
+        "fine_tuning"
+      ],
+      "best_for": "Discovering open and gated models, datasets, and demo spaces, then choosing compatible artifacts for local or cloud work.",
+      "official_url": "https://huggingface.co/docs/hub",
+      "source_note": "Hugging Face Hub documentation; individual repository licenses, gates, and data terms govern use",
+      "last_verified": "2026-09-27",
+      "properties": {
+        "kind": "model_hub",
+        "access": "account may be required; per-repository gates apply",
+        "billing": "varies by hosted service",
+        "data_boundary": "Repository licenses and provider terms apply; inspect model cards and dataset cards",
+        "next_steps": [
+          "online_kaggle_notebooks",
+          "online_lightning_ai",
+          "online_modal_cloud",
+          "online_openrouter"
+        ]
+      },
+      "location": {
+        "kind": "online_world",
+        "label": "Open Model Library",
+        "source_url": "https://huggingface.co/docs/hub",
+        "last_verified": "2026-09-27"
+      },
+      "district": "open_model_library"
+    },
+    {
+      "id": "online_azure_for_students",
+      "name": "Microsoft Azure for Students",
+      "world": "online",
+      "zone": "student_cloud_counter",
+      "status": "student_verification_required",
+      "eligibility": "Eligible full-time students age 18+ at accredited degree-granting institutions who verify academic status",
+      "cost": "Microsoft documents US$100 in Azure credit for 12 months with no credit card; check current regional terms before activation",
+      "tasks": [
+        "azure",
+        "cloud",
+        "student_credits",
+        "virtual_machines",
+        "deployment"
+      ],
+      "best_for": "Student cloud experimentation that needs an Azure project, selected Azure services, and a clearly dated student-credit offer.",
+      "official_url": "https://learn.microsoft.com/en-us/azure/education-hub/about-azure-for-students",
+      "source_note": "Microsoft Learn Azure for Students documentation; eligibility, credit, and service availability are provider-controlled",
+      "last_verified": "2026-09-27",
+      "properties": {
+        "kind": "student_cloud_credit",
+        "access": "verified eligible student account",
+        "billing": "US$100 credit for 12 months; verify regional offer terms",
+        "data_boundary": "External Azure subscription; review service, storage, and institutional data requirements",
+        "next_steps": [
+          "online_github_codespaces",
+          "online_google_colab",
+          "online_modal_cloud"
+        ]
+      },
+      "location": {
+        "kind": "online_world",
+        "label": "Student Cloud Counter",
+        "source_url": "https://learn.microsoft.com/en-us/azure/education-hub/about-azure-for-students",
+        "last_verified": "2026-09-27"
+      },
+      "district": "student_arcade"
+    },
+    {
+      "id": "online_google_colab",
+      "name": "Google Colab",
+      "world": "online",
+      "zone": "notebook_studio",
+      "status": "free_tier_with_variable_compute",
+      "eligibility": "Google account subject to provider terms; premium plans and education offers have separate eligibility",
+      "cost": "Free hosted notebooks are available, but GPU/TPU availability and limits are dynamic and not guaranteed",
+      "tasks": [
+        "notebooks",
+        "python",
+        "gpu",
+        "tpu",
+        "machine_learning",
+        "education"
+      ],
+      "best_for": "Interactive Python notebooks, class exercises, and early machine-learning experiments that fit a variable hosted runtime.",
+      "official_url": "https://research.google.com/colaboratory/faq.html",
+      "source_note": "Google Colab FAQ; free compute exists but hardware, runtime limits, and availability fluctuate",
+      "last_verified": "2026-09-27",
+      "properties": {
+        "kind": "hosted_notebook",
+        "access": "Google account",
+        "billing": "free tier has variable limits; paid plans and compute units are separate",
+        "data_boundary": "External hosted runtime; do not use restricted data without institutional and provider approval",
+        "next_steps": [
+          "online_kaggle_notebooks",
+          "online_hugging_face",
+          "online_gemini_api",
+          "online_lightning_ai"
+        ]
+      },
+      "location": {
+        "kind": "online_world",
+        "label": "Notebook Studio",
+        "source_url": "https://research.google.com/colaboratory/faq.html",
+        "last_verified": "2026-09-27"
+      },
+      "district": "notebook_row"
+    },
+    {
+      "id": "online_gemini_api",
+      "name": "Google AI Studio and Gemini API",
+      "world": "online",
+      "zone": "prompt_prototyping_lab",
+      "status": "free_and_paid_tiers",
+      "eligibility": "Google account, project, and API key; model and regional availability vary",
+      "cost": "Free tier has limited model access and rate limits; paid tier requires billing and changes data-use terms",
+      "tasks": [
+        "llm",
+        "gemini",
+        "api",
+        "prompting",
+        "multimodal",
+        "prototyping"
+      ],
+      "best_for": "Prototyping Gemini API calls and evaluating free versus paid developer tiers with explicit data-use and quota tradeoffs.",
+      "official_url": "https://ai.google.dev/gemini-api/docs/pricing",
+      "source_note": "Google Gemini API pricing documentation; free-tier content may be used to improve products while paid-tier terms differ",
+      "last_verified": "2026-09-27",
+      "properties": {
+        "kind": "developer_llm_api",
+        "access": "Google account, project, and API key",
+        "billing": "free tier limits vary by model; paid billing enables additional capacity",
+        "data_boundary": "Free-tier content may be used to improve Google products; inspect current terms before use",
+        "next_steps": [
+          "online_openrouter",
+          "online_openai_api",
+          "online_anthropic_api",
+          "online_cloudflare_workers_ai"
+        ]
+      },
+      "location": {
+        "kind": "online_world",
+        "label": "Prompt Prototyping Lab",
+        "source_url": "https://ai.google.dev/gemini-api/docs/pricing",
+        "last_verified": "2026-09-27"
+      },
+      "district": "model_market"
+    },
+    {
+      "id": "online_cloudflare_workers_ai",
+      "name": "Cloudflare Workers AI",
+      "world": "online",
+      "zone": "edge_inference_shop",
+      "status": "free_allocation_and_paid_usage",
+      "eligibility": "Cloudflare account; some models and usage levels require a paid plan or prepaid credits",
+      "cost": "Provider documents a daily free allocation and usage-based paid billing; check model-specific requirements",
+      "tasks": [
+        "edge_ai",
+        "serverless",
+        "inference",
+        "deployment",
+        "api",
+        "workers"
+      ],
+      "best_for": "Deploying selected AI models close to a web application using Cloudflare's Workers environment and current provider quotas.",
+      "official_url": "https://developers.cloudflare.com/workers-ai/platform/pricing/",
+      "source_note": "Cloudflare Workers AI pricing documentation; allocation, models, and billing requirements can change",
+      "last_verified": "2026-09-27",
+      "properties": {
+        "kind": "edge_inference",
+        "access": "Cloudflare account",
+        "billing": "daily free allocation plus paid usage; model requirements vary",
+        "data_boundary": "External edge inference provider; review current retention, privacy, and application data handling",
+        "next_steps": [
+          "online_openrouter",
+          "online_groq",
+          "online_github_codespaces"
+        ]
+      },
+      "location": {
+        "kind": "online_world",
+        "label": "Edge Inference Shop",
+        "source_url": "https://developers.cloudflare.com/workers-ai/platform/pricing/",
+        "last_verified": "2026-09-27"
+      },
+      "district": "model_market"
+    },
+    {
+      "id": "online_jetbrains_student",
+      "name": "JetBrains Student Pack",
+      "world": "online",
+      "zone": "student_ide_shop",
+      "district": "student_arcade",
+      "status": "student_verification_required",
+      "eligibility": "Students at accredited educational institutions can apply and verify student status; educational licenses are for non-commercial educational use, including academic research",
+      "cost": "Free student educational license; annual verification/renewal applies",
+      "tasks": [
+        "coding",
+        "ide",
+        "python",
+        "java",
+        "data_science",
+        "student_benefits",
+        "ai_coding"
+      ],
+      "best_for": "Professional IDEs such as PyCharm, IntelliJ IDEA, and DataSpell for coursework, academic research, and student software projects.",
+      "official_url": "https://www.jetbrains.com/academy/student-pack/",
+      "source_note": "JetBrains Student Pack; free verified-student IDE access, education-use restrictions, and current AI trial/free-plan notes",
+      "last_verified": "2026-09-27",
+      "properties": {
+        "kind": "student_ide_pack",
+        "access": "verified student account",
+        "billing": "student IDE pack is free for eligible educational use; AI upgrades may have separate terms",
+        "data_boundary": "External JetBrains account and tools; review current AI/service terms before sending research data",
+        "next_steps": [
+          "online_github_student_pack",
+          "online_github_codespaces",
+          "online_google_colab"
+        ]
+      },
+      "location": {
+        "kind": "online_world",
+        "label": "Student IDE Shop",
+        "source_url": "https://www.jetbrains.com/academy/student-pack/",
+        "last_verified": "2026-09-27"
+      }
+    },
+    {
+      "id": "online_github_codespaces",
+      "name": "GitHub Codespaces",
+      "world": "online",
+      "zone": "dev_cloud_shop",
+      "district": "compute_dock",
+      "status": "personal_account_free_quota_then_metered",
+      "eligibility": "GitHub personal accounts include a monthly free quota; additional use requires billing subject to account settings",
+      "cost": "Included quota depends on GitHub plan; additional compute and storage are metered",
+      "tasks": [
+        "coding",
+        "cloud_dev",
+        "github",
+        "python",
+        "containers",
+        "reproducible_dev"
+      ],
+      "best_for": "A browser/VS Code cloud development environment tied directly to GitHub repositories and reproducible dev containers.",
+      "official_url": "https://docs.github.com/en/billing/concepts/product-billing/github-codespaces",
+      "source_note": "GitHub Codespaces billing docs; personal accounts include plan-dependent free compute/storage quotas",
+      "last_verified": "2026-09-27",
+      "properties": {
+        "kind": "cloud_development",
+        "access": "GitHub personal account",
+        "billing": "plan-dependent included quota, then metered if billing is enabled",
+        "data_boundary": "External GitHub cloud environment; repository and organizational data policies apply",
+        "next_steps": [
+          "online_github_student_pack",
+          "online_jetbrains_student",
+          "online_modal_cloud",
+          "online_openai_api"
+        ]
+      },
+      "location": {
+        "kind": "online_world",
+        "label": "Cloud Dev Workshop",
+        "source_url": "https://docs.github.com/en/billing/concepts/product-billing/github-codespaces",
+        "last_verified": "2026-09-27"
+      }
+    },
+    {
+      "id": "online_kaggle_notebooks",
+      "name": "Kaggle Notebooks",
+      "world": "online",
+      "zone": "kaggle_notebook_shop",
+      "district": "notebook_row",
+      "status": "free_hosted_notebooks_with_quotas",
+      "eligibility": "Kaggle account; accelerator availability is quota- and demand-dependent",
+      "cost": "Hosted notebooks and limited GPU/TPU access are available without direct compute charges; quotas and availability apply",
+      "tasks": [
+        "notebooks",
+        "python",
+        "r",
+        "gpu",
+        "tpu",
+        "datasets",
+        "reproducible_analysis"
+      ],
+      "best_for": "Reproducible Python/R notebooks, public datasets, model experimentation, and limited free GPU/TPU workloads.",
+      "official_url": "https://www.kaggle.com/docs/notebooks",
+      "source_note": "Kaggle Notebooks documentation; hosted notebooks, versioning, datasets, and free accelerator access subject to quotas",
+      "last_verified": "2026-09-27",
+      "properties": {
+        "kind": "hosted_notebook",
+        "access": "Kaggle account",
+        "billing": "free notebook compute subject to quotas; linked external cloud services can have separate charges",
+        "data_boundary": "External hosted notebook and dataset platform; review dataset visibility and sharing before uploading research data",
+        "next_steps": [
+          "online_hugging_face",
+          "online_google_colab",
+          "online_lightning_ai",
+          "online_modal_cloud"
+        ]
+      },
+      "location": {
+        "kind": "online_world",
+        "label": "Kaggle Notebook Shop",
+        "source_url": "https://www.kaggle.com/docs/notebooks",
+        "last_verified": "2026-09-27"
+      }
+    },
+    {
+      "id": "online_lightning_ai",
+      "name": "Lightning AI Studio",
+      "world": "online",
+      "zone": "lightning_studio_shop",
+      "district": "notebook_row",
+      "status": "free_studio_plus_student_intro_credits",
+      "eligibility": "Account required; Lightning academic documentation describes student access and academic pricing",
+      "cost": "One free CPU Studio is documented; student/introductory credits and GPU usage are provider-controlled and additional usage is pay-as-you-go",
+      "tasks": [
+        "gpu",
+        "notebooks",
+        "training",
+        "inference",
+        "agents",
+        "ssh",
+        "cloud_dev",
+        "academic_compute"
+      ],
+      "best_for": "Persistent cloud coding environments that can scale from a free CPU Studio to GPU training, inference, agents, and collaborative research work.",
+      "official_url": "https://lightning.ai/docs/team-management/academia",
+      "source_note": "Lightning AI Academia and Studio docs; student introductory credits and free CPU Studio are current provider offers and may change",
+      "last_verified": "2026-09-27",
+      "properties": {
+        "kind": "academic_ai_cloud",
+        "access": "Lightning account; academic email recommended for academic verification",
+        "billing": "free CPU Studio plus provider-controlled introductory/student credits; GPU use beyond offers is pay-as-you-go",
+        "data_boundary": "External cloud workspace; check institutional approval before restricted data",
+        "next_steps": [
+          "online_modal_cloud",
+          "online_hugging_face",
+          "online_kaggle_notebooks",
+          "online_github_codespaces"
+        ]
+      },
+      "location": {
+        "kind": "online_world",
+        "label": "Lightning Studio",
+        "source_url": "https://lightning.ai/docs/team-management/academia",
+        "last_verified": "2026-09-27"
+      }
+    },
+    {
+      "id": "online_openai_api",
+      "name": "OpenAI API",
+      "world": "online",
+      "zone": "openai_api_shop",
+      "district": "model_market",
+      "status": "developer_account_and_api_key",
+      "eligibility": "Developer account and API access subject to OpenAI terms and regional availability",
+      "cost": "Usage-based pricing varies by model and processing mode; inspect current pricing before use",
+      "tasks": [
+        "llm",
+        "api",
+        "reasoning",
+        "coding",
+        "multimodal",
+        "agents",
+        "model_evaluation"
+      ],
+      "best_for": "Direct developer access to OpenAI models for reasoning, coding, multimodal applications, tools, and agent workflows.",
+      "official_url": "https://platform.openai.com/docs/models",
+      "source_note": "OpenAI API model documentation and pricing; model catalog and prices are time-sensitive",
+      "last_verified": "2026-09-27",
+      "properties": {
+        "kind": "developer_llm_api",
+        "access": "developer account and API key",
+        "billing": "usage-based by model and processing mode",
+        "data_boundary": "External API; review current OpenAI data controls and UCLA requirements before sending research data",
+        "next_steps": [
+          "online_openrouter",
+          "online_anthropic_api",
+          "online_groq",
+          "online_modal_cloud"
+        ]
+      },
+      "location": {
+        "kind": "online_world",
+        "label": "OpenAI API Shop",
+        "source_url": "https://platform.openai.com/docs/models",
+        "last_verified": "2026-09-27"
+      }
+    },
+    {
+      "id": "online_anthropic_api",
+      "name": "Anthropic Claude API",
+      "world": "online",
+      "zone": "anthropic_api_shop",
+      "district": "model_market",
+      "status": "developer_account_and_api_key",
+      "eligibility": "Developer account/API access subject to Anthropic terms and regional availability",
+      "cost": "Usage-based; current model pricing and limits are provider-controlled",
+      "tasks": [
+        "llm",
+        "api",
+        "reasoning",
+        "coding",
+        "agents",
+        "long_context",
+        "model_evaluation"
+      ],
+      "best_for": "Direct Claude model access for reasoning, coding, tool use, and agentic research/software workflows.",
+      "official_url": "https://docs.anthropic.com/en/home",
+      "source_note": "Claude Platform documentation; current models, API behavior, limits, and pricing can change",
+      "last_verified": "2026-09-27",
+      "properties": {
+        "kind": "developer_llm_api",
+        "access": "developer account and API key",
+        "billing": "usage-based; verify current model pricing",
+        "data_boundary": "External API; review current Anthropic data terms and UCLA requirements before sending research data",
+        "next_steps": [
+          "online_openrouter",
+          "online_openai_api",
+          "online_groq",
+          "online_modal_cloud"
+        ]
+      },
+      "location": {
+        "kind": "online_world",
+        "label": "Claude API Shop",
+        "source_url": "https://docs.anthropic.com/en/home",
+        "last_verified": "2026-09-27"
+      }
+    }
+  ]
+}

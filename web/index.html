@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Bruin AI Quest · Two worlds</title><link rel="stylesheet" href="/static/campus.css"></head>
+<body>
+<header><a class="brand" href="/">BRUIN <span>AI QUEST</span></a><span class="edition" id="edition">TWO WORLDS / ONE JOURNEY</span><a id="official-map-link" href="https://map.ucla.edu/" target="_blank" rel="noopener">Official UCLA map ↗</a></header>
+<main>
+<section class="explorer" aria-label="Bruin AI Quest explorer">
+  <div class="intro"><div><p class="eyebrow" id="world-eyebrow">UCLA CAMPUS WORLD</p><h1 id="world-title">Find your place to start.</h1><p id="world-description">Visit a verified workshop venue or select a UCLA-supported AI resource.</p></div><div class="stat"><strong id="world-count">17</strong><span id="world-count-label">UCLA resources</span></div></div>
+  <nav class="world-switch" aria-label="Choose a resource world"><button id="campus-tab" class="active" aria-pressed="true">01 · UCLA campus</button><button id="online-tab" aria-pressed="false">02 · Online AI district</button></nav>
+  <form id="mission"><label for="goal">What would you like to do?</label><div class="input-row"><input id="goal" maxlength="2000" value="I want to learn AI agents for bioinformatics research"><button id="route" type="submit">Build my journey →</button></div><p class="privacy">Your goal is sent to classifier.dev for routing. Use general descriptions; don’t enter confidential or personal data. Active journey progress is stored only in this browser.</p></form>
+  <div class="presets" aria-label="Example goals"><button data-goal="I am a UCLA student and want to learn AI, build an agent, and run it on a GPU">Agent + GPU journey</button><button data-goal="I want help learning single-cell RNA-seq analysis">Single-cell</button><button data-goal="I need GPU compute for a large public biomedical dataset">UCLA GPU</button><button data-goal="I need Google Cloud learning credits as a student">Google credits</button><button data-goal="I want to compare hosted language-model APIs">LLM APIs</button></div>
+  <section id="campus-world" class="world-screen" aria-label="UCLA campus world">
+    <div class="map-card"><div class="map-top"><span><i class="dot"></i> UCLA · Los Angeles</span><div class="map-tools"><button id="zoom-in" aria-label="Zoom in">+</button><button id="zoom-out" aria-label="Zoom out">−</button><button id="fit">Full campus</button></div></div>
+    <div id="map-frame"><canvas id="game" aria-label="Pixel map of UCLA buildings and paths. Use the venue buttons below for keyboard access."></canvas><div id="pins"></div><div class="north" aria-hidden="true">↑<br>N</div><div id="map-loading">Loading campus geography…</div></div>
+    <div class="map-bottom"><span id="journey" role="status">Start at Bruin Plaza. Choose a venue to explore.</span><button id="home">Return to plaza</button></div></div>
+    <div id="venue-list" class="venue-list" aria-label="Campus venues"></div>
+    <p class="map-note">Drag to explore · + / − to zoom · North is up. Building pins are approximate, not room entrances. Avatar routes are illustrative and may include stairs; check <a href="https://map.ucla.edu/downloads/" target="_blank" rel="noopener">UCLA’s accessibility map</a> before traveling.</p>
+    <p class="attribution">Campus geometry: <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">© OpenStreetMap contributors / ODbL</a>. Venue assignments: linked UCLA event pages. <a href="https://map.ucla.edu/downloads/pdf/UCLA_Campus_Colored_Map.pdf" target="_blank" rel="noopener">Official full campus PDF ↗</a></p>
+  </section>
+  <section id="online-world" class="world-screen" hidden aria-label="Online AI resource world">
+    <div class="map-card online-card"><div class="map-top"><span><i class="dot"></i> INDEPENDENT ONLINE AI DISTRICT</span><div class="map-tools"><button id="online-home">Start portal</button></div></div>
+    <div id="online-map-frame"><canvas id="online-game" aria-label="Pixel world of online AI resources. Click a resource node or use the resource catalog for keyboard access."></canvas></div>
+    <div class="map-bottom"><span id="online-journey" role="status">Bruin begins at the district portal. Choose a shop to follow a relevance path.</span><span class="online-world-key">Lines reflect task and property relationships, not provider partnerships.</span></div></div>
+    <div id="online-node-list" class="venue-list" aria-label="Online AI resource nodes"></div>
+    <p class="map-note">Each shop is an external service, not a UCLA service. Districts group student benefits, learning credits, notebooks, GPU/dev clouds, open models, and LLM APIs. Yellow relevance beams preserve the resource network while Bruin walks along the pixel streets.</p>
+    <p class="attribution"><a href="https://education.github.com/pack" target="_blank" rel="noopener">GitHub Education</a> · <a href="https://cloud.google.com/edu/students" target="_blank" rel="noopener">Google Cloud students</a> · <a href="https://openrouter.ai/docs" target="_blank" rel="noopener">OpenRouter docs</a> · <a href="https://console.groq.com/docs/quickstart" target="_blank" rel="noopener">Groq docs</a></p>
+  </section>
+</section>
+<aside>
+  <section class="panel journey-panel" id="journey-panel" hidden>
+    <p class="eyebrow">YOUR RESOURCE JOURNEY</p>
+    <h2 id="journey-title">Journey not started</h2>
+    <p id="journey-summary" class="hint"></p>
+    <div class="journey-progress-row"><span id="journey-progress-label">0 / 0 complete</span><progress id="journey-progress" max="1" value="0"></progress></div>
+    <div id="journey-transition" class="journey-transition" hidden></div>
+    <div id="journey-steps" class="journey-steps"></div>
+    <div class="journey-actions"><button id="journey-prev" type="button">← Previous</button><button id="journey-reset" type="button">Reset</button><button id="journey-next" type="button">Mark done & continue →</button></div>
+  </section>
+  <section class="panel selected-panel"><p class="eyebrow" id="next-stop-label">CURRENT STOP</p><h2 id="selection-title">Choose a campus pin</h2><div id="resource"><p>Five workshops and events are placed at verified venues. Online AI services have their own world.</p></div><div id="related"></div></section>
+  <section class="panel"><div class="section-heading"><h2 id="catalog-title">UCLA resources</h2><span id="catalog-count" class="badge"></span></div><p id="catalog-hint" class="hint">Workshop locations, events, and campus-provided services. Online services remain in the other world.</p><div id="world-resource-list"></div></section>
+  <section class="panel" id="decision-panel" hidden><h2>Jev journey classification</h2><p id="backend"></p><div id="decision"></div><h3>Other suggestions</h3><div id="alternatives"></div></section>
+</aside>
+</main>
+<footer><strong>Community-built. Not an official UCLA service or endorsement.</strong><span id="verified">Venue assignments and online records are dated snapshots. Confirm access, prices, credits, terms, and rooms before use.</span></footer>
+<script type="module" src="/static/app.mjs"></script>
+</body></html>
